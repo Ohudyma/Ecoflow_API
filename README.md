@@ -84,7 +84,7 @@ You can support the developer with a donation:
 
 PayPal - will update later
 
-Monobank - 4441 1144 1446 0376
+Monobank - will update later
 
 
 ## Feedback
