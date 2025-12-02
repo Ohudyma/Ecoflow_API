@@ -24,8 +24,8 @@ license-files = ["LICEN[CS]E*"]
 [project.urls]
 Homepage = "https://github.com/Ohudyma/Ecoflow_API"
 Documentation = "https://github.com/Ohudyma/Ecoflow_API"
-Repository = "https://github.com/Ohudyma/Ecoflow_API.git"
 Issues = "https://github.com/Ohudyma/Ecoflow_API/issues"
+
 
 
 
