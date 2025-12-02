@@ -18,8 +18,6 @@ Install from PyPi using [pip](https://pip.pypa.io/en/latest/), a package manager
 
 ```bash
   pip3 install ecoflow-api
-  #or
-  poetry add git+https://github.com/Ohudyma/Ecoflow_API
 ```
     
 ## Usage

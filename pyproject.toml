@@ -3,8 +3,8 @@ requires = ["setuptools >= 80.9.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "Ohudyma-ecoflow-api"
-version = "0.2.3"
+name = "ecoflow-api"
+version = "0.2.5"
 description = "Ecoflow API library"
 requires-python = ">=3.10"
 license = "MIT"
@@ -19,15 +19,13 @@ authors = [
   { name="Oleksii", email="oleksii.hudyma@gmail.com" },
 ]
 
+
 license-files = ["LICEN[CS]E*"]
 
 [project.urls]
 Homepage = "https://github.com/Ohudyma/Ecoflow_API"
 Documentation = "https://github.com/Ohudyma/Ecoflow_API"
 Issues = "https://github.com/Ohudyma/Ecoflow_API/issues"
-
-
-
 
 
 
