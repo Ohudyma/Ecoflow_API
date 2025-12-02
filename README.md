@@ -1,7 +1,8 @@
 
-# Ecoflow_Delta2_Max_API
+# Ecoflow_API
 
 Python module to get and set parameters for Ecoflow Delta 2 Max and Ecoflow E2000
+
 ## Supported Python Versions
 
 This library supports the following Python implementations:
@@ -16,9 +17,9 @@ Lower versions did not checked.
 Install from PyPi using [pip](https://pip.pypa.io/en/latest/), a package manager for Python.
 
 ```bash
-  pip3 install Ecoflow_Delta2_Max_API
+  pip3 install ecoflow-api
   #or
-  poetry add git+https://github.com/Ohudyma/Ecoflow_Delta2_Max_API
+  poetry add git+https://github.com/Ohudyma/Ecoflow_API
 ```
     
 ## Usage
@@ -29,7 +30,11 @@ Serial number - you can get from Ecoflow device package.
 
 ### Make a Call 
 ```javascript
-import Ecoflow_Delta2_Max_API
+#For Ecoflow E2000
+from ecoflow_api.ecoflow_e2000 import EcoflowAPI
+
+#For Ecoflow Delta2 Max
+from ecoflow_api.ecoflow_delta2_max import EcoflowAPI
 
 access_key = "*********"
 secret_Key  = "*********"
@@ -62,7 +67,7 @@ request_data_set = {"id": 123,
                                "chgPauseFlag": 0}
                     }
 
-api = Ecoflow_Delta2_Max_API(sn=DEVICE_SN, access_key=access_key, secret_key=secret_Key, log_lvl=log_lvl)
+api = EcoflowAPI(sn=DEVICE_SN, access_key=access_key, secret_key=secret_Key, log_lvl=log_lvl)
 
 #Get all device parameters (request_data=None)
 resp_get_all_device_quotas = api.get_all_device_quotas(request_data=None)
@@ -82,9 +87,9 @@ print(resp_set_device_quota)
 
 You can support the developer with a donation:
 
-PayPal - will update later
+PayPal - oleksii.hudyma@gmail.com
 
-Monobank - will update later
+Monobank - 4441 1144 1446 0376	
 
 
 ## Feedback
